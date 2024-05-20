@@ -6,7 +6,7 @@ const {
   createProducts,
   updateProducts,
   deteleProducts,
-} = require("../controller/products");
+} = require("../controller/product");
 
 // Get All Data
 router.get("/products", getAllProducts);
